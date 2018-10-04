@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 分享对话框动画 -->
+    <style name="sharebottomsheetdialog_animation">
+        <item name="android:windowEnterAnimation">@anim/sharebottomsheetdialog_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/sharebottomsheetdialog_bottom_out</item>
+    </style>
+
+</resources>
